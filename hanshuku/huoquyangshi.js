@@ -1,0 +1,1 @@
+function 获取样式(对象,样式){return 对象.currentStyle?对象.currentStyle[样式]:getComputedStyle(对象,false)[样式]};

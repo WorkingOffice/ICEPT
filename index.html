@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>index</title>
+  <link rel="stylesheet" type="text/css" href="css/donghua.css">
+  <link rel="stylesheet" type="text/css" href="css/jcarousel.simple.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
+<link rel="stylesheet" type="text/css" href="css/base.css" />
+<link rel="stylesheet" type="text/css" href="css/style2.css" />
+<script src="js/jquery-1.6.2.min.js"></script>
+ <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+  <style>input {z-index:100; position:absolute;}</style>
+  <script src="hanshuku/lei.js"></script>
+  <script src="hanshuku/ajax.js"></script>
+  <script src="hanshuku/huansuyundong.js"></script>
+  <script src="hanshuku/huoquyangshi.js"></script>
+  <script src="js/donghua.js"></script>
+  <script type="text/javascript" src="js/jquery.jcarousel.js"></script>
+  <script type="text/javascript" src="js/actions.js"></script>
+  <script type="text/javascript" src="js/jquery.inview.js"></script>
+
+<script type="text/javascript" src="js/jquery.scrollTo-1.4.2-min.js"></script>
+<script type="text/javascript" src="js/jquery.localscroll-1.2.7-min.js"></script>
+</head>
+<body>
+  <!--   =========================动画============================    -->
+  <div id="动画区域" class="dhqy">
+    <canvas id="画布" width="1000" height="768"> 您的浏览器不支持 HTML5 </canvas>
+    <img id="公司名称" src="images/gsmc.png" />
+  </div>
+  <!--   =========================动画============================    -->
+  
+  <div id="canvs_y" class="zjc_yc">
+    <div class="top">
+  <div class="header">    
+    <ul class="nav">
+      <li id="ys_home" class="active"><a href="#home" title="Home"><span>首页</span>HOME</a></li>
+          <li id="ys_projects" class=""><a href="#projects" title="Projekte"><span>项目案例</span>PROJEKTE</a></li>
+          <li id="ys_original" class=""><a href="#oreginal" title="Original"><span>原创设计</span>ORIGINAL</a></li>
+          <li id="ys_shopLife" class=""><a href="#shopLife" title="ShoeLife"><span>店<em></em>生活</span>SHOP.LIFE</a></li>
+          <li id="ys_aboutUs" class=""><a href="#aboutUs" title="AboutUs"><span>关于我们</span>ABOUT US</a></li>
+        
+          <li id="ys_jobs" class=""><a href="#jobs" title="Jobs"><span>工作机会</span>JOBS</a></li>
+          <li id="ys_blog" class=""><a href="http://blog.sina.com.cn/u/3236702742" target="_blank" title="Blog"><span>博客</span>BLOG</a></li>
+      </ul>
+        <ul class="ok_contact">
+          <li>(8620)3444 5057</li>
+          <li><a href="mailto:iceptwork@126.com">iceptwork@126.com</a></li>
+        </ul>
+        <div class="language">
+            <h2>语言(Language)</h2>
+            <div class="lag_con">
+              <p id="text_jt">简体中文</p>
+                <p id="text_ft">繁体中文</p>
+                
+            </div>
+        </div>
+    </div>
+</div>
+<div id="home" class="items">
+  <div class="sprite"></div>
+  <div class="screen">
+      <div class="content">
+          <img src="images/title1.png" id="text_title1"/>
+          <img src="images/title17.png" id="text_title11" style="display:none"/>
+        </div>
+    </div>
+</div>
+<div id="projects" class="items">
+  <div class="screen">
+    <div class="content" style="width:100%;margin:0; background:none;">
+      <div style="width: 280px;padding-top: 15px;line-height: 72px;padding-left: 17px;margin-left: 13%;background: url(../images/line.png) no-repeat 0 0;">
+      <img src="images/title2.png" id="text_title2"/>
+      <img src="images/title18.png" style="display:none" id="text_title21" />
+      </div>       
+            <div id="project-container" style="display: none;">
+        <div id="project-wrap">
+          <div id="project-content">
+            <div class="project-slide">
+                          <div class="project-info">
+                              <h2>好石寨<br />石锅饮食文化餐厅</h2>
+                                <h3>室内及软装设计</h3>
+                                <div class="project-info-text">
+                                  <p>坚持以卓越品质的画面为核心，提供独具创新的视觉解决方案。我们为客户创造品牌魅力的同时，也制造着属于自己的品牌，实现着自己的理想。埃硕的每一位年轻人，都拥有饱满的创作经验和激情，他们敢于尝试各种新技用，用全部的热情通力合作，高效地制作出杰出的作品。</p>
+                                </div>
+                            </div>
+                            <div class="project-cycle-wrap">
+                              <div class="csc-textpic csc-textpic-center csc-textpic-above">
+                                  <div class="project-cycle-wrap">
+                                      <div class="bx-wrapper">
+                                          <div class="bx-window">
+                                              <ul class="project-cycle" style="width: 999999px; position: relative; left: 0;">
+                                                  <li><img src="images/projekte/projekte-imgs/imgs_01.jpg" width="701" height="417" alt="" /></li>
+                                                    <li><img src="images/projekte/projekte-imgs/imgs_002.jpg" width="701" height="417" alt="" /></li>
+                                                    <li><img src="images/projekte/projekte-imgs/imgs_003.jpg" width="701" height="417" alt="" /></li>
+                                                    <li><img src="images/projekte/projekte-imgs/imgs_004.jpg" width="701" height="417" alt="" /></li>
+                                                    <li><img src="images/projekte/projekte-imgs/imgs_005.jpg" width="701" height="417" alt="" /></li>
+                                                    <li><img src="images/projekte/projekte-imgs/imgs_006.jpg" width="701" height="417" alt="" /></li>
+                                                    <li><img src="images/projekte/projekte-imgs/imgs_001.jpg" width="701" height="417" alt="" /></li>
+                                                    <li><img src="images/projekte/projekte-imgs/imgs_008.jpg" width="701" height="417" alt="" /></li>
+                                                    <li><img src="images/projekte/projekte-imgs/imgs_009.jpg" width="701" height="417" alt="" /></li>
+                                                </ul>
+                                            </div>
+                                            <div class="bx-pager"><span class="bx-pager-current">1</span>/<span class="bx-pager-total">9</span></div>
+                                            <a href="javascript:void(0);" class="bx-prev">prev</a>  
+                                            <a href="javascript:void(0);" class="bx-next">next</a>  
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="javascript:void(0);" class="project-slider-close"></a>
+                        <!--<a href="#" class="project-slider-prev">Prev</a>
+                        <a href="#" class="project-slider-next">Next</a>-->
+          </div> <!-- #project-content -->
+        </div> <!-- #project-wrap -->
+      </div> <!-- #project-container -->
+            
+      <div id="thumbscreen" class="mt15">
+        <div class="thumbscreen-slides" style="overflow: hidden; position: relative; display: block;">
+          <div class="slides_control">
+            <div class="project-thumbnails-wrap">
+            <ul class="project-thumbnails"><li>
+            <a href="javascript:void(0);">
+              <img src="images/projekte/6dingmu.jpg" width="233" height="150" alt="">
+                            <img class="shadow" src="images/projekte/6dingmu logo.jpg" width="233" height="150" alt="" />
+            </a>
+          </li><li>
+            <a href="javascript:void(0);">
+              <img src="images/projekte/fasing.jpg" width="233" height="150" alt="">
+                            <img class="shadow" src="images/projekte/fasing logo.jpg" width="233" height="150" alt="" />
+            </a>
+          </li><li>
+            <a href="javascript:void(0);">
+              <img src="images/projekte/fellfor.jpg" width="233" height="150" alt="">
+                            <img class="shadow" src="images/projekte/fellfor logo.jpg" width="233" height="150" alt="" />
+            </a>
+          </li><li>
+            <a href="javascript:void(0);">
+              <img src="images/projekte/haoshizai.jpg" width="233" height="150" alt="">
+                            <img class="shadow" src="images/projekte/haoshizai logo.jpg" width="233" height="150" alt="" />
+            </a>
+          </li><li>
+            <a href="javascript:void(0);">
+              <img src="images/projekte/omelon.jpg" width="233" height="150" alt="">
+                            <img class="shadow" src="images/projekte/omelon logo.jpg" width="233" height="150" alt="" />
+            </a>
+          </li><li>
+            <a href="javascript:void(0);">
+              <img src="images/projekte/PB.jpg" width="233" height="150" alt="">
+                            <img class="shadow" src="images/projekte/PB logo.jpg" width="233" height="150" alt="" />
+            </a>
+          </li><li>
+            <a href="javascript:void(0);">
+              <img src="images/projekte/zirantaidu.jpg" width="233" height="150" alt="">
+                            <img class="shadow" src="images/projekte/zirantaidu logo.jpg" width="233" height="150" alt="" />
+            </a>
+          </li><li>
+            
+              <img src="images/projekte/no_img.jpg" width="233" height="150" alt="">
+            
+          </li></ul>
+            <div class="project-div" style="display: none;"></div>
+            <ul class="project-thumbnails project-thumbnails2"><li>
+            
+              <img src="images/projekte/no_img.jpg" width="233" height="150" alt="">
+            
+          </li><li>
+            
+              <img src="images/projekte/no_img.jpg" width="233" height="150" alt="">
+            
+          </li><li>
+            
+              <img src="images/projekte/no_img.jpg" width="233" height="150" alt="">
+            
+          </li><li>
+            
+              <img src="images/projekte/no_img.jpg" width="233" height="150" alt="">
+            
+          </li></ul>
+          </div>
+          <div class="project-thumbnails-wrap">
+            <ul class="project-thumbnails"><li>
+            
+              <img src="images/projekte/no_img.jpg" width="233" height="150" alt="">
+            
+          </li><li>
+            
+              <img src="images/projekte/no_img.jpg" width="233" height="150" alt="">
+            
+          </li><li>
+            
+              <img src="images/projekte/no_img.jpg" width="233" height="150" alt="">
+            
+          </li><li>
+            
+              <img src="images/projekte/no_img.jpg" width="233" height="150" alt="">
+            
+          </li><li>
+            
+              <img src="images/projekte/no_img.jpg" width="233" height="150" alt="">
+            
+          </li><li>
+            
+              <img src="images/projekte/no_img.jpg" width="233" height="150" alt="">
+            
+          </li><li>
+            
+              <img src="images/projekte/no_img.jpg" width="233" height="150" alt="">
+            
+          </li><li>
+            
+              <img src="images/projekte/no_img.jpg" width="233" height="150" alt="">
+            
+          </li></ul>
+            <div class="project-div"></div>
+            <ul class="project-thumbnails project-thumbnails2"><li>
+            
+              <img src="images/projekte/no_img.jpg" width="233" height="150" alt="">
+            
+          </li><li>
+            
+              <img src="images/projekte/no_img.jpg" width="233" height="150" alt="">
+            </a>
+          </li><li>
+            
+              <img src="images/projekte/no_img.jpg" width="233" height="150" alt="">
+            
+          </li><li>
+            
+              <img src="images/projekte/no_img.jpg" width="233" height="150" alt="">
+            
+          </li></ul>
+          </div><div class="project-thumbnails-wrap">
+            <ul class="project-thumbnails"><li>
+            
+              <img src="images/projekte/no_img.jpg" width="233" height="150" alt="">
+            
+          </li><li>
+            
+              <img src="images/projekte/no_img.jpg" width="233" height="150" alt="">
+            
+          </li><li>
+            
+              <img src="images/projekte/no_img.jpg" width="233" height="150" alt="">
+            
+          </li><li>
+            
+              <img src="images/projekte/no_img.jpg" width="233" height="150" alt="">
+            
+          </li><li>
+            
+              <img src="images/projekte/no_img.jpg" width="233" height="150" alt="">
+            
+          </li><li>
+            
+              <img src="images/projekte/no_img.jpg" width="233" height="150" alt="">
+            
+          </li><li>
+            
+              <img src="images/projekte/no_img.jpg" width="233" height="150" alt="">
+            
+          </li><li>
+            
+              <img src="images/projekte/no_img.jpg" width="233" height="150" alt="">
+            
+          </li></ul>
+            <div class="project-div"></div>
+            <ul class="project-thumbnails project-thumbnails2"><li>
+            
+              <img src="images/projekte/no_img.jpg" width="233" height="150" alt="">
+            
+          </li><li>
+            
+              <img src="images/projekte/no_img.jpg" width="233" height="150" alt="">
+            
+          </li><li>
+            
+              <img src="images/projekte/no_img.jpg" width="233" height="150" alt="">
+            
+          </li><li>
+            
+              <img src="images/projekte/no_img.jpg" width="233" height="150" alt="">
+            
+          </li></ul>
+          </div><div class="project-thumbnails-wrap">
+            <ul class="project-thumbnails"><li>
+            
+              <img src="images/projekte/no_img.jpg" width="233" height="150" alt="">
+            
+          </li><li>
+            
+            <img src="images/projekte/no_img.jpg" width="233" height="150" alt="">
+            
+          </li><li>
+            
+              <img src="images/projekte/no_img.jpg" width="233" height="150" alt="">
+            
+          </li><li>
+            
+              <img src="images/projekte/no_img.jpg" width="233" height="150" alt="">
+            
+          </li><li>
+            
+              <img src="images/projekte/no_img.jpg" width="233" height="150" alt="">
+            
+          </li><li>
+            
+              <img src="images/projekte/no_img.jpg" width="233" height="150" alt="">
+            
+          </li><li>
+            
+              <img src="images/projekte/no_img.jpg" width="233" height="150" alt="">
+            
+          </li><li>
+            
+              <img src="images/projekte/no_img.jpg" width="233" height="150" alt="">
+            
+          </li></ul>
+            <div class="project-div"></div>
+            <ul class="project-thumbnails project-thumbnails2"><li>
+            
+              <img src="images/projekte/no_img.jpg" width="233" height="150" alt="">
+            
+          </li><li>
+            
+              <img src="images/projekte/no_img.jpg" width="233" height="150" alt="">
+            
+          </li><li>
+            
+              <img src="images/projekte/no_img.jpg" width="233" height="150" alt="">
+            
+          </li><li>
+            
+            <img src="images/projekte/no_img.jpg" width="233" height="150" alt="">
+            
+          </li></ul>
+          </div></div></div><a href="javascript:void(0);" class="prev">Prev</a><a href="javascript:void(0);" class="next">Next</a> <!-- .thumbscreen-slides -->
+      <!--<ul class="pagination"><li class="current"><a href="0">1</a></li><li><a href="javascript:void(0);">2</a></li><li><a href="javascript:void(0);">3</a></li><li><a href="javascript:void(0);">4</a></li></ul>--></div> <!-- #thumbscreen -->
+
+    </div> <!-- .content -->
+  </div> <!--.screen-->
+</div>
+<div id="oreginal" class="items">
+  <div class="sprite"></div>  
+  <div class="screen">    
+       <div class="oreginal_diy"></div>
+        <div class="content write" style="position:absolute; top:105px;">
+            <img src="images/title3.png"  id="text_title3">
+            <img src="images/title11.png"  id="text_title31" style="display:none">
+        </div>
+    </div>
+    <div class="slideDiv">
+      <ul class="btm_show">
+              <li class="fisrt"><p>陈列道具</p></li>
+                <li class="second"><p>创意小件</p></li>
+                <li class="third"><p>主题情景</p></li>
+                <li class="forth"><p>橱窗设计</p></li>
+            </ul>
+    </div>
+</div>
+<div id="shopLife" class="items">
+  <div class="sprite"></div>
+  <div class="screen">
+      <div class="content write">
+         
+             <img src="images/title4.png" style="margin-top:12px;" id="text_title4">
+             <img src="images/title12.png" style="margin-top:12px;display:none" id="text_title41" >
+        </div>
+    </div>
+    <div class="this_btm">
+       <!-- <p><span>CLICK</span><a href="javascript:void(0);" title="">WWW.ICEPTWORK.COM</a></p> -->
+         <ul class="imgs">
+          <li><img src="images/dsh1.png" alt="" /></li>
+          <li><img src="images/dsh2.png" alt="" /></li>
+          <li><img src="images/dsh3.png" alt="" /></li>
+          <li><img src="images/dsh4.png" alt="" /></li>
+         </ul>
+    </div>
+</div>
+<div id="aboutUs" class="items">
+  <div class="sprite"></div>
+  <div class="screen">
+      
+      <div class="content write">
+          <img src="images/title5.png" style="margin-top:8px;" id="text_title5">
+          <img src="images/title14.png" style="margin-top:12px;display:none" id="text_title51">            
+            <img src="images/title6.png" style="margin-top:8px;" id="text_title6">
+            <img src="images/title13.png" style="margin-top:8px;display:none" id="text_title61">
+        </div>
+    </div>
+</div>
+<div id="jobs" class="items">
+  <div class="screen">
+      <div class="content write">
+          <img src="images/title7.png" style="margin-top:8px;" id="text_title7">
+            <img src="images/title15.png" style="margin-top:12px;display:none" id="text_title71">
+            <div class="slideCon" id="text_title8">
+                <h3>空间设计师<span></span></h3>
+                <div class="job_con">
+                    <p>有较强的空间布局；能独立完成项目设计方案；有操作零售空间，熟悉有关施工工艺；熟练运用室内设计软件</p>
+                </div>
+                <h3>视觉平面设计师<span></span></h3>
+                <div class="job_con">
+                    <p>视觉设计概念新颖；有独立创意思维；对潮流／时尚敏锐触角；熟练运用设计软件，略懂摄影／修图；</p>
+                </div>
+                <h3>策划文案<span></span></h3>
+                <div class="job_con">
+                    <p>协助项目构思方案；提供精准的文字支持；完成各类项目或活动相关的策划文案；擅于整理、总结、提炼；</p>
+                </div>
+                <h3>视觉陈列师<span></span></h3>
+                <div class="job_con">
+                    <p>具备平面设计／店铺空间陈列基础；独立审美能力，富有创意。能参与动手制作；可制定项目陈列标准及陈列道具研发；</p>
+                </div>
+            </div>
+            <div class="slideCon" id="text_title81" style="display:none">
+                <h3>空間設計師<span></span></h3>
+                <div class="job_con">
+                    <p>有較強的空間佈局；能獨立完成項目設計方案；有操作零售空間經驗，熟悉有關施工工藝；熟練運用室內設計軟件；</p>
+                </div>
+                <h3>視覺平面設計師<span></span></h3>
+                <div class="job_con">
+                    <p>視覺設計概念新穎；有獨立創意思維；對潮流/時尚敏銳觸角；熟練運用設計軟件，略懂攝影/修圖；</p>
+                </div>
+                <h3>策劃文案<span></span></h3>
+                <div class="job_con">
+                    <p>協助項目構思方案；提煉精准的文字支持；完成各類項目或活動相關的策劃文案；善於整理、總結、提煉；</p>
+                </div>
+                <h3>視覺陳列師<span></span></h3>
+                <div class="job_con">
+                    <p>具備平面設計/店鋪空間陳列基礎；獨立審美能力，富有創意。能參與動手製作；可制定項目陳列標準及陳列道具研發；</p>
+                </div>
+                <h3>公司招聘职位<span></span></h3>
+                
+            </div>
+        </div>
+        <div class="btm_block" id="text_title91" style="display:none"><a href="mailto:i_cept@163.com"><img src="images/title10.png"></a></div>
+        <div class="btm_block" id="text_title9"><a href="mailto:i_cept@163.com"><img src="images/title20.png"></a></div>
+
+    </div>
+</div>
+  </div>
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/parall.js"></script>
+</body>
+</html>
+
+
+
+

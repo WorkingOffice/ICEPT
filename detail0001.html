@@ -1,0 +1,64 @@
+  <!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+
+</head>
+ <body>
+  <div id="container">
+    <div id="top">
+      <nav id="nav">
+        <ul>
+           <li><a href="index.html#">Home</a></li>
+        <li><a href="index.html#product">Product</a></li>
+        <li><a href="index.html#design">Design</a></li>
+        <li><a href="index.html#about">About</a></li>
+        </ul>
+      </nav>
+    </div>
+
+<div class="TitleOfTheProduct">
+  <h1>人不曾老去，直到悔恨取代了梦想</h1>
+      <hr width="80%"/>
+      <p>不管怎样，为了一个目标而存在的东西，总是那么优雅而美丽，就像这把刀一样。</p>
+</div>
+    <div id="main">
+      <p><img src="images/111.jpg" /></p>
+      <p><img src="images/112.jpg"></p>
+      <p>如果别人让你感到不满或者不快，或者他们的行为不如意，你需要理解，不是每个人都像你这样，受到了良好的教育。</p>
+      <p>我们懂的越多，越发觉自己像这个世界的孤儿</p>
+    </div>
+
+
+    <div id="side">
+      <button class="buy" type="button">Buy Now</button>
+      <button class="price" type="button">$40</button>
+      <h1>生活简单，思想复杂</h1>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){  
+            var menuYloc = $("#side").offset().top;  
+            $(window).scroll(function (){  
+              if ($(window).scrollTop() > 80){
+                var offsetTop = $(window).scrollTop() - 80 +"px";
+                $("#side").animate({top : offsetTop },{ duration:600 , queue:false });  
+              }else{
+                $("#side").animate({top : 0 },{ duration:600 , queue:false });  
+              }
+            });  
+        });  
+    </script>
+
+
+
+    <div id="footer">
+      <footer>© 2013 this is a test. All Rights Reserved.</footer>
+    </div>
+
+  </div>
+</body>
+</html>
